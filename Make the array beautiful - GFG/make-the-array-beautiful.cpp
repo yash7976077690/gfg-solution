@@ -12,7 +12,7 @@ class Solution {
   public:
     vector<int> makeBeautiful(vector<int> arr) {
         // code here
-       stack<int>st; 
+        stack<int>st; 
         for(auto it: arr){
             if(st.size()==0){
                 st.push(it);
