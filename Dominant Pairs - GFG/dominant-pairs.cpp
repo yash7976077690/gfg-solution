@@ -12,7 +12,7 @@ class Solution{
 public:
     int dominantPairs(int n,vector<int> &arr){
         // Code here
-        sort(arr.begin(),arr.begin()+(n/2));
+         sort(arr.begin(),arr.begin()+(n/2));
         sort(arr.begin()+(n/2),arr.end());
         
         int count=0;
