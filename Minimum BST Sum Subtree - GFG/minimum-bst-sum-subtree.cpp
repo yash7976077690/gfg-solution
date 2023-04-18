@@ -85,7 +85,7 @@ public:
 
 class Solution {
 public:
-     int mini = INT_MAX;
+   int mini = INT_MAX;
     
     bool checkBST(TreeNode *root, int minVal, int maxVal){
         if (root == NULL){
