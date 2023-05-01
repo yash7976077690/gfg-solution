@@ -41,7 +41,8 @@ public:
 
 class Solution{
 public:
-    unordered_map<string, int> map;
+    
+        unordered_map<string, int> map;
     
     string solve(Node* root) {
         if(root == nullptr) {
