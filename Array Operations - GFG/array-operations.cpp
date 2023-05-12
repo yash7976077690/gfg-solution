@@ -6,7 +6,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-   int arrayOperations(int n, vector<int> &arr) {
+    int arrayOperations(int n, vector<int> &arr) {
         // code here
         int ans=0,len=0;
         for(int i=0;i<n;i++){
@@ -20,7 +20,6 @@ class Solution {
         if(len)ans++;
         return ans;
     }
-    
 };
 
 
