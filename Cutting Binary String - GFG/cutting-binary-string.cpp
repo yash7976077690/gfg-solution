@@ -5,7 +5,7 @@ using namespace std;
 
 // } Driver Code Ends
 class Solution{
-     public:
+    public:
     bool isPowerOfFive(string s) {
     int n = s.length();
     if (n == 0) return false;
@@ -40,7 +40,6 @@ int cuts(string s) {
     if (minCuts != INT_MAX)
         return minCuts;
     return -1; 
-        
     }
 };
 
