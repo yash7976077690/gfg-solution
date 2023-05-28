@@ -41,15 +41,21 @@ public:
     int getNthFromLast(Node *head, int n)
     {
            // Your code here
-             Node* slow=head,*fast=head;
-       while(n-- && fast)fast=fast->next;
-           
-      if(n>=0 && !fast)return -1;
-       while(fast){
-           slow=slow->next;
-           fast=fast->next;
+          int totalnode=0;
+       Node *p = head;
+       while(p) {
+           p=p->next;
+           totalnode++;
        }
-       return slow->data;
+       p=head;
+       while(p) {
+           totalnode--;
+           if(totalnode==n-1) {
+               return p->data;
+           }
+           p=p->next;
+       }
+       return -1;
     }
 };
 
