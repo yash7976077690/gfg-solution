@@ -5,7 +5,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
 public:
-    bool fun(vector<vector<char>>&s,string w,int i,int j,int indx ){
+     bool fun(vector<vector<char>>&s,string w,int i,int j,int indx ){
     if(indx==w.length())
     {
         return true;
