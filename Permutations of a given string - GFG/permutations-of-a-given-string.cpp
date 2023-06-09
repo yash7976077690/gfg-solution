@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 	public:
-		  void nikaldo(string &s,vector<string> &ans,unordered_map<string,int> &mm){
+	  void nikaldo(string &s,vector<string> &ans,unordered_map<string,int> &mm){
 	        int i=0,j=s.length()-1;
 	        for(i=s.length()-2;i>=0;i--){
 	            if(s[i]<s[i+1])break;
