@@ -9,7 +9,7 @@ class Solution{
     void update(int a[], int n, int updates[], int k)
     {
         // Your code goes here
-         vector<int> dx(n, 0);
+          vector<int> dx(n, 0);
         
         for(int i = 0; i < k; i++)
             dx[updates[i] - 1]++;
