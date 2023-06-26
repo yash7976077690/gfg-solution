@@ -11,7 +11,7 @@ class Solution{
 public:
     int nCr(int n, int r){
         // code here
-          if(n < r)
+         if(n < r)
             return 0;
             
         const int mod = 1e9 + 7;
