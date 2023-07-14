@@ -23,7 +23,7 @@ class twoStacks
     }
  
     //Function to push an integer into the stack1.
-   void push1(int x)
+    void push1(int x)
     {
         arr[++top1] = x;
     }
