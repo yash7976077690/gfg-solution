@@ -44,7 +44,7 @@ class Solution
     Node * removeDuplicates( Node *head) 
     {
      // your code goes here
-    Node* ansList = new Node(-1);
+     Node* ansList = new Node(-1);
         Node* ansptr = ansList;
         unordered_set<int> st;
 
