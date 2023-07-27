@@ -12,7 +12,7 @@ class Solution
 {
     public:
     //Heapify function to maintain heap property.
-     void heapify(int arr[], int n, int i)  
+    void heapify(int arr[], int n, int i)  
     {
         int cur = arr[i];
         int par = arr[(i - 1) / 2];
